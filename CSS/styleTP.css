@@ -1,0 +1,79 @@
+/* *{font-family: 'Ubuntu', sans-serif; color: black;} */
+* {font-family: 'Noto Serif', serif; color: black;}
+
+a:link {text-decoration: none;}
+a:hover {color:blue;}
+
+.ppal  {
+    
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    border: rgb(130, 141, 240); border-style: solid; 
+    border-width: 0.2em;
+    font-weight: bold; font-family: 'Noto Serif', serif;
+    position: relative; min-width: 50px; min-height: 10px;
+    font-size: 1.7em;
+   }
+
+.ppal header {position: fixed}
+
+.ppal > h1 {font-style: bold; font-size: 2rem; text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Serif', serif;
+    font-size: 2em;
+    }
+
+
+#logo img {position: fixed; background-color: rgb(225, 235, 206); border: 1px solid #ddd;  border-radius: 10px;  padding: 2px; top: 2%; float: left;
+    width: 70px;
+    opacity: 1;}
+
+.menu1 ul {background-color: #DCD9D4;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
+    ; min-width: 50px; min-height: 10px;
+    display:flex;  flex-wrap: wrap; justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.mppal {display: flex; 
+    color: rgb(168, 226, 220);  
+}
+ 
+.mmpal section {display: flex; 
+    flex-direction: column; flex:75%}
+
+.msec h2 {font-size: 1.9rem; font-style: bold; background-color: honeydew; text-align: center;}
+
+.msec header {
+    background-color: gainsboro; border-style:none; border-color: rgb(94, 93, 95);
+    border-width: 0.05em;
+}
+.msec article { min-height: 90px; min-width: 50px; border-style: none; font-size: 1.3rem;
+    text-align: center;
+
+}
+
+.imagenes {display: flex; justify-content: space-around; flex-direction: row; padding: 1rem;}
+.imagen { max-width: 30rem; min-width: 30rem;}
+
+
+.mppal aside { background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%); border-style: none; border-color:crimson; flex: 25%; font-weight: bold;
+}
+.aside1 > h4 {text-align: center; font-size: 1.3rem; margin: 0.1rem;}
+.aside1 {font-size: 0.9 rem; font-weight: bold;}
+
+body > footer {background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%); border-style: solid; min-width: 50px; font-weight: bold; font-size: 1rem; 
+text-align: center;
+}
+
+.footer {font-style: bold;}
+#seguinos {font-size: 0.9rem; font-weight:bold;}
+
+.msec > footer {background-color:#fefffe !important; border-style: none; text-align: left; font-style: bold; border-color:blueviolet
+}
+
+#redes {background-color: rgb(176, 206, 207); min-width: 50px; min-height: 10px;}
+
+#redes ul {display:flex; flex-direction: row; justify-content: space-around;}

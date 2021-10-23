@@ -1,0 +1,63 @@
+/* *{font-family: 'Ubuntu', sans-serif; color: black;} */
+* {font-family: 'Inconsolata', monospace; color: black;}
+
+.products {
+    display: flex; flex-wrap: wrap;
+}
+
+
+
+.product-info { font-size: 1.2rem;
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+    display: flex;
+    margin-top: auto;
+    flex-wrap: wrap;
+    }
+
+.product-img img{ max-width: 100%;
+
+}
+
+
+h3 { flex: 100%;
+     animation: bounce;    
+        animation-duration: 3s;
+        font-size: 2rem;
+        font-weight: bolder;
+}
+
+.imagenes {display: flex; justify-content: space-around; flex-direction: row; padding: 1rem;}
+.imagen { max-width: 20rem; max-height: 25rem;}
+
+
+:hover h3 {
+    animation: bounce 5s;
+    
+}
+.iframes {min-width: 10px; max-width: 10px;}
+
+@media (max-width: 800px) {
+    .imagenes {
+      max-height: fit-content;
+      
+      flex: 70%;
+      flex-wrap: wrap;
+      margin: 1rem;
+      flex-direction: column;
+    }
+  }
+
+
+ @media (max-width: 500px) {
+    .imagenes {
+      flex: 90%;
+      flex-wrap: wrap;
+      padding: 0.5rem;
+      margin: 3rem;
+      justify-content: space-evenly;
+      max-height: 15rem;
+
+    }
+  }
