@@ -77,3 +77,12 @@ text-align: center;
 #redes {background-color: rgb(176, 206, 207); min-width: 50px; min-height: 10px;}
 
 #redes ul {display:flex; flex-direction: row; justify-content: space-around;}
+
+@media (max-width: 500px) {
+    .imagenes {
+      flex: 90%;
+      flex-wrap: wrap;
+      padding: 0.5rem;
+      margin: 3rem;
+      flex-direction: column;}
+  }
